@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Pedro Henrique DEV</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar"data-aos="zoom-in" data-aos-delay="500s">
+            <i class="fa-brands fa-dev" id="nav_logo"> Pedro Henrique</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#port">Últimos Projetos</a>
+                </li>
+            </ul>
+
+            <a class="btn_orçamento"
+            href="https://api.whatsapp.com/send/?phone=%2B5571986002861&text=Gostaria%20de%20fazer%20um%20orçamento."
+            target="_blank"
+            >
+                <button class="btn-default">
+                    Realizar Orçamento.
+                </button>
+            </a>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#port">Últimos Projetos</a>
+                </li>
+            </ul>
+
+            <a class="btn_orçamento"
+            href="https://api.whatsapp.com/send/?phone=%2B5571986002861&text=Gostaria%20de%20fazer%20um%20orçamento."
+            target="_blank"
+            >
+                <button class="btn-default">
+                    Realizar Orçamento.
+                </button>
+            </a>
+
+        </div>
+    </header>
+    
+    <main id="content">
+        <section id="home">
+            <div id="cta" data-aos="fade-up-right" data-aos-delay="600s">
+                <h1 class="title" >
+                     <span style="color: #7db4b5;">Olá, eu sou </span> <span style="color: #680148;">Pedro Henrique.</span>
+                </h1>
+
+                <p class="desc">
+                    <span style="color:#e0eff1 ;">
+                        O Baiano responsavel por dar vida aos seus sonhos.
+                    </span>
+                </p>
+
+                <div id="cta_button">
+                    <a href="#port" class="btn-default"><span style="color: #7db4b5;">Ver últimos trabalhos.</span></a>
+
+                    <a 
+                    href="https://api.whatsapp.com/send/?phone=%2B5571986002861&text=Gostaria%20de%20fazer%20um%20orçamento." 
+                    id="contato_button"
+                    target="_blank"
+                    >
+                        <button class="btn-contact">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                        Entrar em contato.
+                    </a> 
+                </div>
+
+                <div class="social-media-buttons">
+                    <a 
+                    href="https://www.linkedin.com/in/pedro-henrique-devandsupport/"
+                    target="_blank"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a 
+                    href="https://github.com/PedroHenr-Dev"
+                    target="_blank"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a 
+                    href="https://www.instagram.com/pedrohenr.dev?igsh=emdtNGNqNXJnMTlu"
+                    target="_blank"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner" data-aos="fade-up-left" data-aos-delay="800s">
+                <img src="src/images/Miles Icon.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div id="about_content" data-aos="fade-up-up" data-aos-delay="600s">
+                <h2 class="section-title"><span style="color: #7db4b5;">Sobre mim</span></h2>
+                <p>
+                    <span style="color: #680148;">      
+                        Me chamo <strong>Pedro Henrique</strong>. Sou desenvolvedor Front-End e minha missão é transformar ideias em realidade.
+                    </span>  
+                </p>
+                <p>
+                    <span style="color: #680148;">       
+                        Sempre fui apaixonado por tecnologia e conheci a programação em 2022, desde então, venho me aperfeiçoando continuamente.
+                    </span>  
+                </p>
+                <p>
+                    <span style="color: #680148;">      
+                        Atualmente, meu foco é o desenvolvimento de interfaces, aplicações e sites responsivos, entre outros projetos.
+                    </span>  
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="skills">
+            <img src="src/images/Miles Icon 2" id="skills_art" alt="" data-aos="flip-right" data-aos-delay="500s">
+
+            <div id="skills_content">
+                <h2 class="section-title" data-aos="zoom-out" data-aos-delay="500s">
+                    <span style="color: #7db4b5;">Habilidades.</span>
+
+                </h2>
+
+                <h3 class="section-subtitle" data-aos="zoom-out" data-aos-delay="500s">
+                    <span style="color: #680148;">Ferramentas utilizadas.</span>
+                </h3>
+
+                <div id="lings">
+                    <div class="ling" data-aos="flip-left" data-aos-delay="500s">
+                        <img src="src/images/html.png" class="ling-brand" alt="">
+
+                        <div class="ling-desc">
+                            <p>
+                                <span style="color: #680148;"> <strong>HTML5</strong></span>
+                            </p>
+                            <p>
+                                <span style="color: #e0eff1;">
+                                    Uma linguagem de programação que define a estrutura e o significado do conteúdo de uma página web. Usado para criar websites e aplicações online. 
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="ling" data-aos="flip-left" data-aos-delay="700s">
+                        <img src="src/images/css.png" class="ling-brand" alt="">
+
+                        <div class="ling-desc">
+                            <p>
+                                <span style="color: #680148;"> <strong>CSS</strong></span>
+                            </p>
+                            <p>
+                                <span style="color: #e0eff1;">
+                                    Uma linguagem de programação que define a aparência de páginas da web. 
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="ling" data-aos="flip-left" data-aos-delay="900s">
+                        <img src="src/images/js.png" class="ling-brand" alt="">
+
+                        <div class="ling-desc">
+                            <p>
+                                <span style="color: #680148;"> <strong>JavaScript</strong></span>
+                            </p>
+                            <p>
+                                <span style="color: #e0eff1;">
+                                    Uma linguagem de programação que permite a você implementar em páginas web.
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="ling" data-aos="flip-left" data-aos-delay="1100s">
+                        <img src="src/images/tailwind.png" class="ling-brand" alt="">
+
+                        <div class="ling-desc">
+                            <p>
+                                <span style="color: #680148;"> <strong>TailWind</strong></span>
+                            </p>
+                            <p>
+                                <span style="color: #e0eff1;">
+                                    Um framework CSS que oferece classes pré-definidas para estilizar páginas web.
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="ling" data-aos="flip-left" data-aos-delay="1300s">
+                        <img src="src/images/sass.png" class="ling-brand" alt="">
+
+                        <div class="ling-desc">
+                            <p>
+                                <span style="color: #680148;"> <strong>SASS</strong></span>
+                            </p>
+                            <p>
+                                <span style="color: #e0eff1;">
+                                    Uma linguagem de pré-processamento para folhas de estilo que se compila em CSS.
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="ling" data-aos="flip-left" data-aos-delay="1500s">
+                        <img src="src/images/wordpress.png" class="ling-brand" alt="">
+
+                        <div class="ling-desc">
+                            <p>
+                                <span style="color: #680148;"> <strong>WordPress</strong></span>
+                            </p>
+                            <p>
+                                <span style="color: #e0eff1;">
+                                    um sistema de gerenciamento de conteúdo (CMS) que permite criar sites, blogs, lojas virtuais, portais de notícias, e mais.
+                                </span>
+                            </p>
+                        </div>
+                    
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="port" >
+            <h2 class="section-title" data-aos="zoom-out" data-aos-delay="500s">
+                <span style="color: #7db4b5;">Últimos Projetos.</span>
+            </h2>
+            <h3  class="section-subtitle" data-aos="zoom-out" data-aos-delay="700s"><span style="color: #680148;">Conheça meu Portfolio!</span></h3>
+
+            <div id="projects">
+                <div class="project" data-aos="zoom-in" data-aos-delay="500s">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-laptop" style="color: #680148;"></i>
+                    </div>
+
+                    <img src="src/images/AroucaBarber-rd.png" class="project-image" alt="">
+
+                    <h3 class="project-title"> <span style="color: #680148;">Site Arouca Barber;</span></h3>
+
+                    <span class="project-desc" style="color: #e0eff1;">
+                        Site construido para uma barbearia. Site totalmente responsivo para todos dispositivos.
+                    </span> 
+
+                    <div class="project-ling">
+                         <span style="color:#ffffff ;">Linguagens utilizadas;</span>
+                        <i class="fa-brands fa-html5" style="color: #680148;"></i>
+                        <i class="fa-brands fa-sass" style="color: #680148;"></i>
+                       
+                    </div>
+                    
+                    <div class="project-vercel">
+                        <h4><span style="color: #ffffff;">Abrir site:</span></h4>
+                        <button class="btn-default">
+                            <a href="https://arouca-barber.vercel.app" target="_blank">
+                                <i 
+                                class="fa-solid fa-link" style="color: #7db4b5;">
+                                </i> 
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project" data-aos="zoom-in" data-aos-delay="700s">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-laptop" style="color: #680148;"></i>
+                    </div>
+
+                    <img src="src/images/PrinceSkins-rd.png" class="project-image" alt="">
+
+                    <h3 class="project-title"> <span style="color: #680148;">Site Prince Skins;</span></h3>
+
+                    <span class="project-desc" style="color: #e0eff1;">
+                        Site construido em HTML para uma loja de Skins de CS2. Site totalmente responsivo para todos dispositivos.
+                    </span> 
+
+                    <div class="project-ling">
+                        <span style="color:#ffffff ;">Linguagens utilizadas;</span>
+                        <i class="fa-brands fa-html5" style="color: #680148;"></i>
+                        <i class="fa-brands fa-css" style="color: #680148;"></i>
+                        <i class="fa-brands fa-node-js" style="color: #680148;"></i>
+                    </div>
+
+                    <div class="project-vercel">
+                        <h4><span style="color: #ffffff;">Abrir site:</span></h4>
+                        <button class="btn-default">
+                            <a href="https://prince-skins.vercel.app" target="_blank">
+                                <i 
+                                class="fa-solid fa-link" style="color: #7db4b5;">
+                                </i> 
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer_items" data-aos="zoom-out" data-aos-delay="500s">
+            <div id="name">
+                 <h2 id="footer_name">
+                    <span style="color: #7db4b5;"> <strong>Pedro Henrique</strong></span>
+                </h2>
+                <p id="footer_prof">
+                    <span style="color: #e0eff1;">Desenvolvedor Front-End</span>
+                </p>
+            </div>
+
+            <div id="footer_contact">
+                <i class="fa-solid fa-phone" style="color: #7db4b5;"></i>
+                <div>
+                    <h3><span style="color: #7db4b5;">Telefone</span></h3>
+                    <span id="contact_desc" style="color: #e0eff1;">
+                        (71) 98600-3861        
+                    </span>
+                </div>
+            </div>
+            
+            <div id="footer_contact">
+                <i class="fa-solid fa-envelope" style="color: #7db4b5;"></i>
+                <div>
+                    <h3><span style="color: #7db4b5;">Email</span></h3>
+                    <span id="contact_desc" style="color: #e0eff1;"> pedrohenr.dev@gmail.com</span>
+                </div>
+            </div>
+
+            <div id="footer_contact">
+                <i class="fa-solid fa-location-dot" style="color: #7db4b5;"></i>
+                <div>
+                    <h3><span style="color: #7db4b5;">Localização</span></h3>
+                    <span id="contact_desc" style="color: #e0eff1;"> Salvador, Bahia - Brasil </span>
+                </div>
+            </div>
+
+            <div class="footer-social-buttons">
+                <a 
+                href="https://www.linkedin.com/in/pedro-henrique-devandsupport/"
+                target="_blank"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a 
+                href="https://github.com/PedroHenr-Dev"
+                target="_blank"
+                >
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a 
+                href="https://www.instagram.com/pedrohenr.dev?igsh=emdtNGNqNXJnMTlu"
+                target="_blank"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                </a> 
+            </div>
+        </div>
+        
+        <p id="footer_copy"> 
+            <span style="color: black;">&copy; Pedro Henrique DEV 2025 - Todos os direitos reservados</span>
+        </p>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+#about{
+    min-height: calc(100vh -92px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: px;
+    word-spacing: 2px;
+}
+
+#about_content{
+    width: 50%;
+    gap: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+    #about {
+        flex-direction: column;
+    }
+
+    #about .section-subtitle {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #about_content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about .section-subtitle {
+        font-size: 2rem;
+    }
+
+    #about_content {
+        width: 100%;
+    }
+
+} 

@@ -1,0 +1,44 @@
+
+footer{
+    background-color:#680148;
+    display: grid;
+    width: 100%;
+    padding: 28px 8%;
+}
+footer i{
+    font-size: 22px;
+}
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+#footer_prof{
+    font-size: smaller;
+}
+
+#footer_contact{
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+}
+
+#contact_desc{
+    font-size: small;
+}
+
+
+#footer_copy{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
+
+
+@media screen and (max-width: 728px) {
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
